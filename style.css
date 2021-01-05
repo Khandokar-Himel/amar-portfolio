@@ -5,7 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.purple-highlight{
     color: purple;
 }
 .half-width{
@@ -23,7 +29,8 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 800px;
+    padding-bottom: 100;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +40,9 @@ section{
     border-radius: 5px;
     font-weight: 700;
 
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
